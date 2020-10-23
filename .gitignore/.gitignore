@@ -1,0 +1,10 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	int calc;
+	int calc2=5;//number what you like to *!
+	cin >> calc;
+	cout << (calc*calc2);
+		return 0;
+}
