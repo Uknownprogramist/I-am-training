@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	int first, second, summary;
+	char sign;
+
+	cin >> first;//первое число/first number
+
+	cout << "\n";//пропуск/space
+
+	cin >> sign;//знак/sign
+
+	cout << "\n";//пропуск/space
+
+	cin >> second;//второе число/second number
+  
+	if (sign == '/') { summary = first / second; }
+	if (sign == '*') { summary = first * second; }
+	if (sign == '-') { summary = first - second; }
+	if (sign == '+') { summary = first + second; }
+  
+	cout << "\n" << summary;//сумма/result
+	return 0;
+
+         }
